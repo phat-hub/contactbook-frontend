@@ -38,11 +38,11 @@
         </div>
         <div class="form-group">
             <button class="btn btn-primary"><i class="fas fa-save"></i> Lưu</button>
-            <button v-if="contactLocal._id" type="button" class="mx-2 btn btn-danger"
+            <button v-if="contactLocal._id" type="button" class="btn btn-danger" style="margin-left: 8px;"
             @click="deleteContact">
                 <i class="fas fa-trash-alt"></i> Xóa
             </button>
-            <button type="button" class="btn btn-danger" @click="Cancel">
+            <button type="button" class="btn btn-danger" style="margin-left: 8px;" @click="Cancel">
                 <i class="fas fa-times"></i> Thoát
             </button>
         </div>
